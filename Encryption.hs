@@ -1,3 +1,5 @@
+import Data.Char
+
 encoder :: String -> String -> String
 encoder x y = encoder' (map toUpper x) (cycle (map toUpper y))
 
